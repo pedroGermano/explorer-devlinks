@@ -59,6 +59,8 @@ body * {
 
 #switch{
   position: relative;
+  width: 64px;
+  margin: 4px auto;
 }
 
 #switch button{
@@ -67,7 +69,10 @@ body * {
   background: #fff var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
+
   position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
   right: 0;
   z-index: 1;
 }
